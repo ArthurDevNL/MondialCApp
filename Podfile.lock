@@ -1,0 +1,42 @@
+PODS:
+  - AFNetworking (2.4.1):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+    - AFNetworking/UIKit
+  - AFNetworking/NSURLConnection (2.4.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.4.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.4.1)
+  - AFNetworking/Security (2.4.1)
+  - AFNetworking/Serialization (2.4.1)
+  - AFNetworking/UIKit (2.4.1):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - Appirater (2.0.3)
+  - JBWhatsAppActivity (1.0)
+  - MBProgressHUD (0.9)
+  - TUSafariActivity (1.0.0)
+
+DEPENDENCIES:
+  - AFNetworking
+  - Appirater
+  - JBWhatsAppActivity
+  - MBProgressHUD
+  - TUSafariActivity
+
+SPEC CHECKSUMS:
+  AFNetworking: 0aabc6fae66d6e5d039eeb21c315843c7aae51ab
+  Appirater: 793f3723354b1b155f7ddc87fc6017bea889ce50
+  JBWhatsAppActivity: d0eeb5b235d297be90935105e5cac2e41240a1ef
+  MBProgressHUD: 2038dbcf3dce73215abed6001657043d53aa79a8
+  TUSafariActivity: afff9b1d2eacf7cbace752c5f2bf56db852714de
+
+COCOAPODS: 0.33.1

@@ -1,0 +1,716 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B5B3035CF7F4165830E39BD /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C41DD180EC344D7AB0D32ED0 /* libPods.a */; };
+		8E27F700186F4B3200EE10D9 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 8E27F6FF186F4B3200EE10D9 /* Podfile */; };
+		8E2AB542186DD6C700A9DAD7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E2AB541186DD6C700A9DAD7 /* Images.xcassets */; };
+		8E41E665179E8E77001FDCD8 /* MainStoryboard~iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E41E664179E8E77001FDCD8 /* MainStoryboard~iPhone.storyboard */; };
+		8E637BC017A826C1007AA416 /* UIColor+MLPFlatColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E637BBF17A826B1007AA416 /* UIColor+MLPFlatColors.m */; };
+		8E75891616A6E5AB00926220 /* Lesson.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E75890F16A6E53100926220 /* Lesson.m */; };
+		8E75891716A6E5AB00926220 /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E75891116A6E53100926220 /* Stack.m */; };
+		8E75891816A6E5AB00926220 /* Timetable.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E75891316A6E53100926220 /* Timetable.m */; };
+		8E75891916A6E5AB00926220 /* Weekday.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E75891516A6E53100926220 /* Weekday.m */; };
+		8E8031AB17953F08002FC17E /* News.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8031AA17953F08002FC17E /* News.m */; };
+		8E8031AE17953F36002FC17E /* Article.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8031AD17953F36002FC17E /* Article.m */; };
+		8E815AC516AB078D00484654 /* PersoonlijkRooster.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E815AC416AB078D00484654 /* PersoonlijkRooster.m */; };
+		8E8AC1F517A2D9DA00217E6F /* OverAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8AC1F417A2D9DA00217E6F /* OverAppViewController.m */; };
+		8E8AC1F817A2E1EB00217E6F /* LestijdenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8AC1F717A2E1EB00217E6F /* LestijdenViewController.m */; };
+		8E8D80F9179B2FFD00D4D11F /* NewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8D80F8179B2FFD00D4D11F /* NewsCell.m */; };
+		8EA8C3CA1674DA84001FEE90 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EA8C3C91674DA84001FEE90 /* CFNetwork.framework */; };
+		8EBD2A171699CF4000D08106 /* AHPlistManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBD2A151699CE7000D08106 /* AHPlistManager.m */; };
+		8EEA088E179FF0E8008EB3E3 /* AccountNotificatiesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EEA088D179FF0E8008EB3E3 /* AccountNotificatiesViewController.m */; };
+		9E26CEE315CF19D500A00F96 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E26CEE215CF19D500A00F96 /* QuartzCore.framework */; };
+		9E7364B614C18D3D00DACA93 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E7364B514C18D3D00DACA93 /* UIKit.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		9E7364B814C18D3D00DACA93 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E7364B714C18D3D00DACA93 /* Foundation.framework */; };
+		9E7364BA14C18D3D00DACA93 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E7364B914C18D3D00DACA93 /* CoreGraphics.framework */; };
+		9E7364C014C18D3D00DACA93 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9E7364BE14C18D3D00DACA93 /* InfoPlist.strings */; };
+		9E7364C214C18D3D00DACA93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E7364C114C18D3D00DACA93 /* main.m */; };
+		9E7364C614C18D3D00DACA93 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E7364C514C18D3D00DACA93 /* AppDelegate.m */; };
+		9E7364C914C18D3D00DACA93 /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E7364C814C18D3D00DACA93 /* NewsViewController.m */; };
+		9E7364D014C18D3D00DACA93 /* DagroosterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E7364CF14C18D3D00DACA93 /* DagroosterViewController.m */; };
+		9E7364E914C1A27400DACA93 /* NewsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E7364E714C1A27100DACA93 /* NewsDetailViewController.m */; };
+		9E7364F014C1A61100DACA93 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E7364EF14C1A61100DACA93 /* Twitter.framework */; };
+		9E73651114C1BA2C00DACA93 /* DisclaimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E73650F14C1BA2A00DACA93 /* DisclaimerViewController.m */; };
+		9EB4060A154DCB9C0022DA4B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB40609154DCB9C0022DA4B /* CoreData.framework */; };
+		9EB40628154DD0D00022DA4B /* RoosterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EB40614154DCDA30022DA4B /* RoosterTableViewController.m */; };
+		9EB40629154DD0D60022DA4B /* RoosterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EB40616154DCDA30022DA4B /* RoosterViewController.m */; };
+		9EB4062A154DD0DA0022DA4B /* RoosterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EB40618154DCDA30022DA4B /* RoosterCell.m */; };
+		9EB4062B154DD0DD0022DA4B /* InstellingenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EB40612154DCD980022DA4B /* InstellingenViewController.m */; };
+		9EB40639154DD2300022DA4B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB40638154DD2300022DA4B /* SystemConfiguration.framework */; };
+		9EB4063E154DD9250022DA4B /* AccountTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EB40635154DD10D0022DA4B /* AccountTypeViewController.m */; };
+		9EB4063F154DD9250022DA4B /* AccountRoostervanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EB40637154DD10D0022DA4B /* AccountRoostervanViewController.m */; };
+		9ECB98EF14D74371007CB9D8 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECB98EE14D74371007CB9D8 /* MessageUI.framework */; };
+		9EE36CE3155827C2009FFC7D /* Lestijden.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9EE36CE2155827C2009FFC7D /* Lestijden.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8E27F6FF186F4B3200EE10D9 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8E2AB541186DD6C700A9DAD7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8E41E664179E8E77001FDCD8 /* MainStoryboard~iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "MainStoryboard~iPhone.storyboard"; sourceTree = "<group>"; };
+		8E637BBE17A826B1007AA416 /* UIColor+MLPFlatColors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+MLPFlatColors.h"; sourceTree = "<group>"; };
+		8E637BBF17A826B1007AA416 /* UIColor+MLPFlatColors.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+MLPFlatColors.m"; sourceTree = "<group>"; };
+		8E75890E16A6E53100926220 /* Lesson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lesson.h; sourceTree = "<group>"; };
+		8E75890F16A6E53100926220 /* Lesson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lesson.m; sourceTree = "<group>"; };
+		8E75891016A6E53100926220 /* Stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
+		8E75891116A6E53100926220 /* Stack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Stack.m; sourceTree = "<group>"; };
+		8E75891216A6E53100926220 /* Timetable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Timetable.h; sourceTree = "<group>"; };
+		8E75891316A6E53100926220 /* Timetable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Timetable.m; sourceTree = "<group>"; };
+		8E75891416A6E53100926220 /* Weekday.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Weekday.h; sourceTree = "<group>"; };
+		8E75891516A6E53100926220 /* Weekday.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Weekday.m; sourceTree = "<group>"; };
+		8E7827DB17BB992100D20589 /* CategoriesImport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CategoriesImport.h; sourceTree = "<group>"; };
+		8E8031A917953F08002FC17E /* News.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = News.h; sourceTree = "<group>"; };
+		8E8031AA17953F08002FC17E /* News.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = News.m; sourceTree = "<group>"; };
+		8E8031AC17953F36002FC17E /* Article.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Article.h; sourceTree = "<group>"; };
+		8E8031AD17953F36002FC17E /* Article.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Article.m; sourceTree = "<group>"; };
+		8E815AC316AB078D00484654 /* PersoonlijkRooster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersoonlijkRooster.h; sourceTree = "<group>"; };
+		8E815AC416AB078D00484654 /* PersoonlijkRooster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersoonlijkRooster.m; sourceTree = "<group>"; };
+		8E8AC1F317A2D9DA00217E6F /* OverAppViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverAppViewController.h; sourceTree = "<group>"; };
+		8E8AC1F417A2D9DA00217E6F /* OverAppViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverAppViewController.m; sourceTree = "<group>"; };
+		8E8AC1F617A2E1EB00217E6F /* LestijdenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LestijdenViewController.h; sourceTree = "<group>"; };
+		8E8AC1F717A2E1EB00217E6F /* LestijdenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LestijdenViewController.m; sourceTree = "<group>"; };
+		8E8D80F7179B2FFD00D4D11F /* NewsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsCell.h; sourceTree = "<group>"; };
+		8E8D80F8179B2FFD00D4D11F /* NewsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsCell.m; sourceTree = "<group>"; };
+		8EA8C3C91674DA84001FEE90 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		8EBD2A141699CE7000D08106 /* AHPlistManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AHPlistManager.h; sourceTree = "<group>"; };
+		8EBD2A151699CE7000D08106 /* AHPlistManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AHPlistManager.m; sourceTree = "<group>"; };
+		8EEA088C179FF0E8008EB3E3 /* AccountNotificatiesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountNotificatiesViewController.h; sourceTree = "<group>"; };
+		8EEA088D179FF0E8008EB3E3 /* AccountNotificatiesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountNotificatiesViewController.m; sourceTree = "<group>"; };
+		9E26CEE215CF19D500A00F96 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9E7364B114C18D3D00DACA93 /* MondialCApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MondialCApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E7364B514C18D3D00DACA93 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9E7364B714C18D3D00DACA93 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9E7364B914C18D3D00DACA93 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9E7364BD14C18D3D00DACA93 /* MondialCApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MondialCApp-Info.plist"; sourceTree = "<group>"; };
+		9E7364BF14C18D3D00DACA93 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9E7364C114C18D3D00DACA93 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9E7364C314C18D3D00DACA93 /* MondialCApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MondialCApp-Prefix.pch"; sourceTree = "<group>"; };
+		9E7364C414C18D3D00DACA93 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9E7364C514C18D3D00DACA93 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9E7364C714C18D3D00DACA93 /* NewsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };
+		9E7364C814C18D3D00DACA93 /* NewsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
+		9E7364CE14C18D3D00DACA93 /* DagroosterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DagroosterViewController.h; sourceTree = "<group>"; };
+		9E7364CF14C18D3D00DACA93 /* DagroosterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DagroosterViewController.m; sourceTree = "<group>"; };
+		9E7364E614C1A27100DACA93 /* NewsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsDetailViewController.h; sourceTree = "<group>"; };
+		9E7364E714C1A27100DACA93 /* NewsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsDetailViewController.m; sourceTree = "<group>"; };
+		9E7364EF14C1A61100DACA93 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		9E73650E14C1BA2A00DACA93 /* DisclaimerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisclaimerViewController.h; sourceTree = "<group>"; };
+		9E73650F14C1BA2A00DACA93 /* DisclaimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisclaimerViewController.m; sourceTree = "<group>"; };
+		9EB40609154DCB9C0022DA4B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		9EB40611154DCD980022DA4B /* InstellingenViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InstellingenViewController.h; sourceTree = "<group>"; };
+		9EB40612154DCD980022DA4B /* InstellingenViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstellingenViewController.m; sourceTree = "<group>"; };
+		9EB40613154DCDA30022DA4B /* RoosterTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoosterTableViewController.h; sourceTree = "<group>"; };
+		9EB40614154DCDA30022DA4B /* RoosterTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoosterTableViewController.m; sourceTree = "<group>"; };
+		9EB40615154DCDA30022DA4B /* RoosterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoosterViewController.h; sourceTree = "<group>"; };
+		9EB40616154DCDA30022DA4B /* RoosterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoosterViewController.m; sourceTree = "<group>"; };
+		9EB40617154DCDA30022DA4B /* RoosterCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoosterCell.h; sourceTree = "<group>"; };
+		9EB40618154DCDA30022DA4B /* RoosterCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoosterCell.m; sourceTree = "<group>"; };
+		9EB40634154DD10D0022DA4B /* AccountTypeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccountTypeViewController.h; sourceTree = "<group>"; };
+		9EB40635154DD10D0022DA4B /* AccountTypeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccountTypeViewController.m; sourceTree = "<group>"; };
+		9EB40636154DD10D0022DA4B /* AccountRoostervanViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccountRoostervanViewController.h; sourceTree = "<group>"; };
+		9EB40637154DD10D0022DA4B /* AccountRoostervanViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccountRoostervanViewController.m; sourceTree = "<group>"; };
+		9EB40638154DD2300022DA4B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		9ECB98EE14D74371007CB9D8 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		9EE36CE2155827C2009FFC7D /* Lestijden.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Lestijden.plist; sourceTree = "<group>"; };
+		B63302A63AF04683A00AE527 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		C41DD180EC344D7AB0D32ED0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E7364AE14C18D3D00DACA93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EA8C3CA1674DA84001FEE90 /* CFNetwork.framework in Frameworks */,
+				9E26CEE315CF19D500A00F96 /* QuartzCore.framework in Frameworks */,
+				9EB40639154DD2300022DA4B /* SystemConfiguration.framework in Frameworks */,
+				9EB4060A154DCB9C0022DA4B /* CoreData.framework in Frameworks */,
+				9E7364B614C18D3D00DACA93 /* UIKit.framework in Frameworks */,
+				9E7364B814C18D3D00DACA93 /* Foundation.framework in Frameworks */,
+				9E7364BA14C18D3D00DACA93 /* CoreGraphics.framework in Frameworks */,
+				9E7364F014C1A61100DACA93 /* Twitter.framework in Frameworks */,
+				9ECB98EF14D74371007CB9D8 /* MessageUI.framework in Frameworks */,
+				7B5B3035CF7F4165830E39BD /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E184186186EE6C300F2D9AF /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				8E75890516A6E35300926220 /* Basisrooster */,
+				8E8031A817953E9E002FC17E /* Nieuws */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		8E75890516A6E35300926220 /* Basisrooster */ = {
+			isa = PBXGroup;
+			children = (
+				8E75890E16A6E53100926220 /* Lesson.h */,
+				8E75890F16A6E53100926220 /* Lesson.m */,
+				8E75891016A6E53100926220 /* Stack.h */,
+				8E75891116A6E53100926220 /* Stack.m */,
+				8E75891216A6E53100926220 /* Timetable.h */,
+				8E75891316A6E53100926220 /* Timetable.m */,
+				8E75891416A6E53100926220 /* Weekday.h */,
+				8E75891516A6E53100926220 /* Weekday.m */,
+				8E815AC316AB078D00484654 /* PersoonlijkRooster.h */,
+				8E815AC416AB078D00484654 /* PersoonlijkRooster.m */,
+			);
+			name = Basisrooster;
+			sourceTree = "<group>";
+		};
+		8E7827DA17BB98EE00D20589 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				8E7827DB17BB992100D20589 /* CategoriesImport.h */,
+				8E637BBE17A826B1007AA416 /* UIColor+MLPFlatColors.h */,
+				8E637BBF17A826B1007AA416 /* UIColor+MLPFlatColors.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		8E8031A817953E9E002FC17E /* Nieuws */ = {
+			isa = PBXGroup;
+			children = (
+				8E8031AC17953F36002FC17E /* Article.h */,
+				8E8031AD17953F36002FC17E /* Article.m */,
+				8E8031A917953F08002FC17E /* News.h */,
+				8E8031AA17953F08002FC17E /* News.m */,
+			);
+			name = Nieuws;
+			sourceTree = "<group>";
+		};
+		8E8AC1D617A2D49000217E6F /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				8E41E664179E8E77001FDCD8 /* MainStoryboard~iPhone.storyboard */,
+				8E8AC1D717A2D4B200217E6F /* Nieuws */,
+				8E8AC1DB17A2D4D400217E6F /* Dagrooster */,
+				8E8AC1E617A2D59800217E6F /* Lestijden */,
+				8E8AC1D917A2D4BF00217E6F /* Basisrooster */,
+				8E8AC1D817A2D4B700217E6F /* Instellingen */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		8E8AC1D717A2D4B200217E6F /* Nieuws */ = {
+			isa = PBXGroup;
+			children = (
+				9E7364C714C18D3D00DACA93 /* NewsViewController.h */,
+				9E7364C814C18D3D00DACA93 /* NewsViewController.m */,
+				8E8D80F7179B2FFD00D4D11F /* NewsCell.h */,
+				8E8D80F8179B2FFD00D4D11F /* NewsCell.m */,
+				9E7364E614C1A27100DACA93 /* NewsDetailViewController.h */,
+				9E7364E714C1A27100DACA93 /* NewsDetailViewController.m */,
+			);
+			name = Nieuws;
+			sourceTree = "<group>";
+		};
+		8E8AC1D817A2D4B700217E6F /* Instellingen */ = {
+			isa = PBXGroup;
+			children = (
+				8E8AC1E417A2D56400217E6F /* Over De App */,
+				9EB40631154DD1040022DA4B /* SetupAccount */,
+				9EB40611154DCD980022DA4B /* InstellingenViewController.h */,
+				9EB40612154DCD980022DA4B /* InstellingenViewController.m */,
+			);
+			name = Instellingen;
+			sourceTree = "<group>";
+		};
+		8E8AC1D917A2D4BF00217E6F /* Basisrooster */ = {
+			isa = PBXGroup;
+			children = (
+				9EB40615154DCDA30022DA4B /* RoosterViewController.h */,
+				9EB40616154DCDA30022DA4B /* RoosterViewController.m */,
+				9EB40613154DCDA30022DA4B /* RoosterTableViewController.h */,
+				9EB40614154DCDA30022DA4B /* RoosterTableViewController.m */,
+				9EB40617154DCDA30022DA4B /* RoosterCell.h */,
+				9EB40618154DCDA30022DA4B /* RoosterCell.m */,
+			);
+			name = Basisrooster;
+			sourceTree = "<group>";
+		};
+		8E8AC1DB17A2D4D400217E6F /* Dagrooster */ = {
+			isa = PBXGroup;
+			children = (
+				9E7364CE14C18D3D00DACA93 /* DagroosterViewController.h */,
+				9E7364CF14C18D3D00DACA93 /* DagroosterViewController.m */,
+			);
+			name = Dagrooster;
+			sourceTree = "<group>";
+		};
+		8E8AC1E217A2D52F00217E6F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8E184186186EE6C300F2D9AF /* Framework */,
+				8E8AC1E317A2D55400217E6F /* Third party */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8E8AC1E317A2D55400217E6F /* Third party */ = {
+			isa = PBXGroup;
+			children = (
+				8E7827DA17BB98EE00D20589 /* Categories */,
+				8E8AC1EC17A2D6B000217E6F /* AHPlistManager */,
+			);
+			name = "Third party";
+			sourceTree = "<group>";
+		};
+		8E8AC1E417A2D56400217E6F /* Over De App */ = {
+			isa = PBXGroup;
+			children = (
+				8E8AC1F317A2D9DA00217E6F /* OverAppViewController.h */,
+				8E8AC1F417A2D9DA00217E6F /* OverAppViewController.m */,
+			);
+			name = "Over De App";
+			sourceTree = "<group>";
+		};
+		8E8AC1E617A2D59800217E6F /* Lestijden */ = {
+			isa = PBXGroup;
+			children = (
+				8E8AC1F617A2E1EB00217E6F /* LestijdenViewController.h */,
+				8E8AC1F717A2E1EB00217E6F /* LestijdenViewController.m */,
+			);
+			name = Lestijden;
+			sourceTree = "<group>";
+		};
+		8E8AC1EC17A2D6B000217E6F /* AHPlistManager */ = {
+			isa = PBXGroup;
+			children = (
+				8EBD2A141699CE7000D08106 /* AHPlistManager.h */,
+				8EBD2A151699CE7000D08106 /* AHPlistManager.m */,
+			);
+			name = AHPlistManager;
+			sourceTree = "<group>";
+		};
+		8E8D80FA179B386D00D4D11F /* Disclaimer */ = {
+			isa = PBXGroup;
+			children = (
+				9E73650E14C1BA2A00DACA93 /* DisclaimerViewController.h */,
+				9E73650F14C1BA2A00DACA93 /* DisclaimerViewController.m */,
+			);
+			name = Disclaimer;
+			sourceTree = "<group>";
+		};
+		9E7364A614C18D3B00DACA93 = {
+			isa = PBXGroup;
+			children = (
+				9E7364BB14C18D3D00DACA93 /* MondialCApp */,
+				9E7364B414C18D3D00DACA93 /* Frameworks */,
+				9E7364B214C18D3D00DACA93 /* Products */,
+				B63302A63AF04683A00AE527 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		9E7364B214C18D3D00DACA93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E7364B114C18D3D00DACA93 /* MondialCApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E7364B414C18D3D00DACA93 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8EA8C3C91674DA84001FEE90 /* CFNetwork.framework */,
+				9E26CEE215CF19D500A00F96 /* QuartzCore.framework */,
+				9EB40638154DD2300022DA4B /* SystemConfiguration.framework */,
+				9EB40609154DCB9C0022DA4B /* CoreData.framework */,
+				9ECB98EE14D74371007CB9D8 /* MessageUI.framework */,
+				9E7364EF14C1A61100DACA93 /* Twitter.framework */,
+				9E7364B514C18D3D00DACA93 /* UIKit.framework */,
+				9E7364B714C18D3D00DACA93 /* Foundation.framework */,
+				9E7364B914C18D3D00DACA93 /* CoreGraphics.framework */,
+				C41DD180EC344D7AB0D32ED0 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E7364BB14C18D3D00DACA93 /* MondialCApp */ = {
+			isa = PBXGroup;
+			children = (
+				9E7364C414C18D3D00DACA93 /* AppDelegate.h */,
+				9E7364C514C18D3D00DACA93 /* AppDelegate.m */,
+				8E8AC1D617A2D49000217E6F /* iPhone */,
+				8E8AC1E217A2D52F00217E6F /* Resources */,
+				8E8D80FA179B386D00D4D11F /* Disclaimer */,
+				8E2AB541186DD6C700A9DAD7 /* Images.xcassets */,
+				9E7364BC14C18D3D00DACA93 /* Supporting Files */,
+			);
+			path = MondialCApp;
+			sourceTree = "<group>";
+		};
+		9E7364BC14C18D3D00DACA93 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E7364BD14C18D3D00DACA93 /* MondialCApp-Info.plist */,
+				9E7364BE14C18D3D00DACA93 /* InfoPlist.strings */,
+				9E7364C114C18D3D00DACA93 /* main.m */,
+				9E7364C314C18D3D00DACA93 /* MondialCApp-Prefix.pch */,
+				9EE36CE2155827C2009FFC7D /* Lestijden.plist */,
+				8E27F6FF186F4B3200EE10D9 /* Podfile */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9EB40631154DD1040022DA4B /* SetupAccount */ = {
+			isa = PBXGroup;
+			children = (
+				9EB40634154DD10D0022DA4B /* AccountTypeViewController.h */,
+				9EB40635154DD10D0022DA4B /* AccountTypeViewController.m */,
+				9EB40636154DD10D0022DA4B /* AccountRoostervanViewController.h */,
+				9EB40637154DD10D0022DA4B /* AccountRoostervanViewController.m */,
+				8EEA088C179FF0E8008EB3E3 /* AccountNotificatiesViewController.h */,
+				8EEA088D179FF0E8008EB3E3 /* AccountNotificatiesViewController.m */,
+			);
+			name = SetupAccount;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E7364B014C18D3D00DACA93 /* MondialCApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E7364DD14C18D3D00DACA93 /* Build configuration list for PBXNativeTarget "MondialCApp" */;
+			buildPhases = (
+				A110B6CDC36040A097B505E7 /* Check Pods Manifest.lock */,
+				9E7364AD14C18D3D00DACA93 /* Sources */,
+				9E7364AE14C18D3D00DACA93 /* Frameworks */,
+				9E7364AF14C18D3D00DACA93 /* Resources */,
+				BFE0F03B1BED4BBCA8DE39C2 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MondialCApp;
+			productName = MondialCApp;
+			productReference = 9E7364B114C18D3D00DACA93 /* MondialCApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E7364A814C18D3B00DACA93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				TargetAttributes = {
+					9E7364B014C18D3D00DACA93 = {
+						DevelopmentTeam = M4T5ZRQ3FP;
+					};
+				};
+			};
+			buildConfigurationList = 9E7364AB14C18D3C00DACA93 /* Build configuration list for PBXProject "MondialCApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				nl,
+			);
+			mainGroup = 9E7364A614C18D3B00DACA93;
+			productRefGroup = 9E7364B214C18D3D00DACA93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E7364B014C18D3D00DACA93 /* MondialCApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E7364AF14C18D3D00DACA93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E27F700186F4B3200EE10D9 /* Podfile in Resources */,
+				9E7364C014C18D3D00DACA93 /* InfoPlist.strings in Resources */,
+				8E2AB542186DD6C700A9DAD7 /* Images.xcassets in Resources */,
+				9EE36CE3155827C2009FFC7D /* Lestijden.plist in Resources */,
+				8E41E665179E8E77001FDCD8 /* MainStoryboard~iPhone.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A110B6CDC36040A097B505E7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BFE0F03B1BED4BBCA8DE39C2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E7364AD14C18D3D00DACA93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E637BC017A826C1007AA416 /* UIColor+MLPFlatColors.m in Sources */,
+				8E75891616A6E5AB00926220 /* Lesson.m in Sources */,
+				8E75891716A6E5AB00926220 /* Stack.m in Sources */,
+				8E75891816A6E5AB00926220 /* Timetable.m in Sources */,
+				8E75891916A6E5AB00926220 /* Weekday.m in Sources */,
+				8EBD2A171699CF4000D08106 /* AHPlistManager.m in Sources */,
+				9EB4063E154DD9250022DA4B /* AccountTypeViewController.m in Sources */,
+				9EB4063F154DD9250022DA4B /* AccountRoostervanViewController.m in Sources */,
+				9EB4062B154DD0DD0022DA4B /* InstellingenViewController.m in Sources */,
+				9EB4062A154DD0DA0022DA4B /* RoosterCell.m in Sources */,
+				9EB40629154DD0D60022DA4B /* RoosterViewController.m in Sources */,
+				9EB40628154DD0D00022DA4B /* RoosterTableViewController.m in Sources */,
+				9E7364C214C18D3D00DACA93 /* main.m in Sources */,
+				9E7364C614C18D3D00DACA93 /* AppDelegate.m in Sources */,
+				9E7364C914C18D3D00DACA93 /* NewsViewController.m in Sources */,
+				9E7364D014C18D3D00DACA93 /* DagroosterViewController.m in Sources */,
+				9E7364E914C1A27400DACA93 /* NewsDetailViewController.m in Sources */,
+				9E73651114C1BA2C00DACA93 /* DisclaimerViewController.m in Sources */,
+				8E815AC516AB078D00484654 /* PersoonlijkRooster.m in Sources */,
+				8E8031AB17953F08002FC17E /* News.m in Sources */,
+				8E8031AE17953F36002FC17E /* Article.m in Sources */,
+				8E8D80F9179B2FFD00D4D11F /* NewsCell.m in Sources */,
+				8EEA088E179FF0E8008EB3E3 /* AccountNotificatiesViewController.m in Sources */,
+				8E8AC1F517A2D9DA00217E6F /* OverAppViewController.m in Sources */,
+				8E8AC1F817A2E1EB00217E6F /* LestijdenViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9E7364BE14C18D3D00DACA93 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E7364BF14C18D3D00DACA93 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9E7364DB14C18D3D00DACA93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Arthur Hemmer (ZQXE959SFJ)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1F4ED09F-80C8-4533-8523-5CD6DD4974FF";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9E7364DC14C18D3D00DACA93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Appsss (M4T5ZRQ3FP)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1F4ED09F-80C8-4533-8523-5CD6DD4974FF";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E7364DE14C18D3D00DACA93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B63302A63AF04683A00AE527 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MondialCApp/MondialCApp-Prefix.pch";
+				INFOPLIST_FILE = "MondialCApp/MondialCApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9E7364DF14C18D3D00DACA93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B63302A63AF04683A00AE527 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MondialCApp/MondialCApp-Prefix.pch";
+				INFOPLIST_FILE = "MondialCApp/MondialCApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9EDD0BA014C9BECF00D6F062 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Appsss (M4T5ZRQ3FP)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1D191EE5-DB70-4F69-A33B-FE0184E238FA";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		9EDD0BA114C9BECF00D6F062 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B63302A63AF04683A00AE527 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MondialCApp/MondialCApp-Prefix.pch";
+				INFOPLIST_FILE = "MondialCApp/MondialCApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Distribution;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E7364AB14C18D3C00DACA93 /* Build configuration list for PBXProject "MondialCApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E7364DB14C18D3D00DACA93 /* Debug */,
+				9E7364DC14C18D3D00DACA93 /* Release */,
+				9EDD0BA014C9BECF00D6F062 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E7364DD14C18D3D00DACA93 /* Build configuration list for PBXNativeTarget "MondialCApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E7364DE14C18D3D00DACA93 /* Debug */,
+				9E7364DF14C18D3D00DACA93 /* Release */,
+				9EDD0BA114C9BECF00D6F062 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9E7364A814C18D3B00DACA93 /* Project object */;
+}

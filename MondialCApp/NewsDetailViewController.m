@@ -53,4 +53,11 @@
     [self.lblSummary setText:self.article.Summary];
 }
 
+-(void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    
+    
+}
+
 @end
